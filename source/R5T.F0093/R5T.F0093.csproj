@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>netstandard2.1</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <NoWarn>1591</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -14,4 +14,10 @@
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <RepositoryUrl>https://github.com/SafetyCone/R5T.F0093.git</RepositoryUrl>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\R5T.F0000\source\R5T.F0000\R5T.F0000.csproj" />
+    <ProjectReference Include="..\..\..\R5T.F0080\source\R5T.F0080\R5T.F0080.csproj" />
+    <ProjectReference Include="..\..\..\R5T.F0087\source\R5T.F0087\R5T.F0087.csproj" />
+    <ProjectReference Include="..\..\..\R5T.F0089\source\R5T.F0089\R5T.F0089.csproj" />
+  </ItemGroup>
 </Project>
