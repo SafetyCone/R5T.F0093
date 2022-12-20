@@ -1,14 +1,13 @@
 ﻿using System;
 
-using R5T.F0042.N000;
 using R5T.F0087;
+using R5T.T0142;
 
 
 namespace R5T.F0093
 {
-    public class ConsoleRepositoryResult
+    [DataTypeMarker]
+    public class ConsoleRepositoryResult : SolutionRepositoryResult<ConsoleSolutionResult>
     {
-        public RepositoryResult RepositoryResult { get; set; }
-        public ConsoleSolutionResult ConsoleSolutionResult { get; set; }
     }
 }
