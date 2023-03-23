@@ -77,7 +77,7 @@ namespace R5T.F0093
         {
             F0080.RepositoryOperations.Instance.Checkin(
                 repositoryContext.LocalDirectoryPath,
-                CommitMessages.Instance.InitialCommit);
+                Instances.CommitMessages.InitialCommit);
 
             return Task.CompletedTask;
         }
